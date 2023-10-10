@@ -1,1 +1,8 @@
-<img [src]="picture" alt="logo">
+<section>
+  <button (click)="previousSlide()">Précédent</button>
+
+  <img [src]="images[currentSlide].src" alt="image" />
+
+  <button (click)="nextSlide()">Suivant</button>
+
+</section>
