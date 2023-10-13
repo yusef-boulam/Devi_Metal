@@ -1,3 +1,4 @@
+import { Router } from '@angular/router';
 import { Project } from './../models/project.model';
 import { Component, Input } from '@angular/core';
 
@@ -9,6 +10,8 @@ import { Component, Input } from '@angular/core';
 export class ProjectComponent {
   @Input() project!: Project;
 
+  constructor(private router: Router) {}
+
   externalUrl!: string;
   title!: string;
   description!: string;
@@ -19,7 +22,7 @@ export class ProjectComponent {
 
   ngOnInit(): void {}
 
-  // showDescription(): void {
-  //   alert('Description du projet');
-  // }
+  onViewProject() {
+    this.router.navigateByUrl('project/' + this.project.id);
+  }
 }

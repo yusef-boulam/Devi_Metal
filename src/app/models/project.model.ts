@@ -7,4 +7,8 @@ export class Project {
   imageUrl!: string;
   tag!: string;
   page!: string;
+  images!: {
+    src: string;
+    alt: string;
+  }[];
 }

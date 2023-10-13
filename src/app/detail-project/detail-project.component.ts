@@ -1,4 +1,7 @@
-import { Component } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
+import { ProjectsService } from './../services/projects.service';
+import { Component, Input } from '@angular/core';
+import { Project } from '../models/project.model';
 
 @Component({
   selector: 'app-detail-project',
@@ -6,75 +9,22 @@ import { Component } from '@angular/core';
   styleUrls: ['./detail-project.component.scss'],
 })
 export class DetailProjectComponent {
-  currentSlide = 0;
-  images = [
-    {
-      src: '../../assets/images/project/Barriere/covers.jpg',
-      alt: 'photo barriere',
-    },
-    {
-      src: '../../assets/images/project/Barriere/1.jpg',
-      alt: 'photo barriere',
-    },
-    {
-      src: '../../assets/images/project/Barriere/2.jpg',
-      alt: 'photo barriere',
-    },
-    {
-      src: '../../assets/images/project/Barriere/3.jpg',
-      alt: 'photo barriere',
-    },
-    {
-      src: '../../assets/images/project/Barriere/4.jpg',
-      alt: 'photo barriere',
-    },
-    {
-      src: '../../assets/images/project/Barriere/5.jpg',
-      alt: 'photo barriere',
-    },
-    {
-      src: '../../assets/images/project/Barriere/6.jpg',
-      alt: 'photo barriere',
-    },
-    {
-      src: '../../assets/images/project/Barriere/7.jpg',
-      alt: 'photo barriere',
-    },
-    {
-      src: '../../assets/images/project/Barriere/8.jpg',
-      alt: 'photo barriere',
-    },
-    {
-      src: '../../assets/images/project/Barriere/9.jpg',
-      alt: 'photo barriere',
-    },
-    {
-      src: '../../assets/images/project/Barriere/10.jpg',
-      alt: 'photo barriere',
-    },
-    {
-      src: '../../assets/images/project/Barriere/11.jpg',
-      alt: 'photo barriere',
-    },
-    {
-      src: '../../assets/images/project/Barriere/12.jpg',
-      alt: 'photo barriere',
-    },
-    {
-      src: '../../assets/images/project/Barriere/13.jpg',
-      alt: 'photo barriere',
-    },
-    {
-      src: '../../assets/images/project/Barriere/14.jpg',
-      alt: 'photo barriere',
-    },
-    {
-      src: '../../assets/images/project/Barriere/15.jpg',
-      alt: 'photo barriere',
-    },
+  project!: Project;
+  images!: { src: string; alt: string }[];
 
-    // ... autres images
-  ];
+  constructor(
+    private ProjectsService: ProjectsService,
+    private route: ActivatedRoute
+  ) {}
+
+  // recupere l'id du projet dans l'url
+  ngOnInit(): void {
+    const projectId = +this.route.snapshot.params['id'];
+    this.project = this.ProjectsService.getProjectById(projectId);
+    this.images = this.project.images;
+  }
+
+  currentSlide = 0;
 
   previousSlide() {
     this.currentSlide =

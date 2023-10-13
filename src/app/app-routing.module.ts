@@ -6,10 +6,8 @@ import { DetailProjectComponent } from './detail-project/detail-project.componen
 import { ProjectAComponent } from './project-a/project-a.component';
 
 const routes: Routes = [
+  { path: 'project/:id', component: DetailProjectComponent },
   { path: '', component: HomePageComponent },
-  { path: 'projectA', component: ProjectAComponent },
-  { path: 'projectB', component: DetailProjectComponent },
-  { path: 'projectC', component: DetailProjectComponent },
 ];
 
 @NgModule({
