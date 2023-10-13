@@ -9,9 +9,6 @@ import { HeaderComponent } from './header/header.component';
 import { HomePageComponent } from './home-page/home-page.component';
 import { FooterComponent } from './footer/footer.component';
 import { DetailProjectComponent } from './detail-project/detail-project.component';
-import { ProjectAComponent } from './project-a/project-a.component';
-import { ProjectBComponent } from './project-b/project-b.component';
-import { ProjectCComponent } from './project-c/project-c.component';
 
 @NgModule({
   declarations: [
@@ -22,9 +19,6 @@ import { ProjectCComponent } from './project-c/project-c.component';
     HomePageComponent,
     FooterComponent,
     DetailProjectComponent,
-    ProjectAComponent,
-    ProjectBComponent,
-    ProjectCComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
