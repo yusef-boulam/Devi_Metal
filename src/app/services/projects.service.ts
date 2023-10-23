@@ -8,7 +8,7 @@ export class ProjectsService {
   projects: Project[] = [
     {
       id: 1,
-      title: 'Booki',
+      title: 'Barriere',
       description: 'Construction d’une rambarde pour un particulier.',
       logoUrl: '../../assets/images/project/Barriere/covers.jpg',
       imageUrl: '../../assets/images/project/Barriere/covers.jpg',
@@ -85,25 +85,7 @@ export class ProjectsService {
     },
     {
       id: 2,
-      title: 'OhMyFood',
-      description: 'Construction d’une véranda pour un particulier .',
-      logoUrl: '../../assets/images/project/logo_ohmyfood.png',
-      imageUrl: '../../assets/images/project/Veranda/covers.jpg',
-
-      tag: 'Plein de Beaux',
-      page: 'projectB',
-      images: [
-        {
-          src: '../../assets/images/project/Chapiteau/2.jpg',
-          alt: 'photo chapiteau',
-        },
-
-        // ... autres images
-      ],
-    },
-    {
-      id: 3,
-      title: 'La Panthère',
+      title: 'Chapiteau',
       description:
         'Participation en tant que constructeur métal pour la compagnie arc en ciel.',
       logoUrl: '../../assets/images/project/logo_laPanthere.svg',
@@ -237,6 +219,32 @@ export class ProjectsService {
           src: '../../assets/images/project/Chapiteau/38.jpg',
           alt: 'photo chapiteau',
         },
+      ],
+    },
+    {
+      id: 3,
+      title: 'Veranda',
+      description: 'Construction d’une véranda pour un particulier .',
+      logoUrl: '../../assets/images/project/logo_ohmyfood.png',
+      imageUrl: '../../assets/images/project/Veranda/covers.jpg',
+
+      tag: 'Plein de Beaux',
+      page: 'projectB',
+      images: [
+        {
+          src: '../../assets/images/project/Veranda/covers.jpg',
+          alt: 'photo veranda',
+        },
+        {
+          src: '../../assets/images/project/Veranda/Photo 1.jpg',
+          alt: 'photo veranda',
+        },
+        {
+          src: '../../assets/images/project/Veranda/photo 2.jpg',
+          alt: 'photo veranda',
+        },
+
+        // ... autres images
       ],
     },
   ];
