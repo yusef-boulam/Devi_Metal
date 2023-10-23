@@ -11,6 +11,8 @@ import { Project } from '../models/project.model';
 export class DetailProjectComponent {
   project!: Project;
   images!: { src: string; alt: string }[];
+  arrowBack: string = '../../assets/tools/arrowBack.png';
+  arrowNext: string = '../../assets/tools/arrowNext.png';
 
   constructor(
     private ProjectsService: ProjectsService,
@@ -22,6 +24,8 @@ export class DetailProjectComponent {
     const projectId = +this.route.snapshot.params['id'];
     this.project = this.ProjectsService.getProjectById(projectId);
     this.images = this.project.images;
+    this.arrowBack = this.arrowBack;
+    this.arrowNext = this.arrowNext;
   }
 
   currentSlide = 0;

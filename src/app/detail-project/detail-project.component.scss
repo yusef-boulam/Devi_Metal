@@ -6,6 +6,8 @@ section {
   align-items: center;
   margin-top: 110px;
   margin-bottom: 20px;
+  position: relative;
+
 }
 
 button{
@@ -14,5 +16,23 @@ button{
 
 img{
   max-width: 80%;
-  height: 90vh;
+  max-height: 80vh;
+}
+
+
+.container-arrows{
+width: 85%;
+position: absolute;
+display: flex;
+justify-content: space-between;
+}
+
+.arrow{
+width: 30px;
+margin: 10px;
+background-color: rgba(93, 90, 90, 0.463);
+}
+
+.arrow:hover{
+  cursor: pointer;
 }

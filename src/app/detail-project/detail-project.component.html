@@ -1,8 +1,11 @@
 <section>
-  <button (click)="previousSlide()">Précédent</button>
 
   <img [src]="images[currentSlide].src" alt="image" />
 
-  <button (click)="nextSlide()">Suivant</button>
+  <div class="container-arrows">
+    <img [src]="arrowBack" class="arrow" (click)="previousSlide()" />
+
+    <img [src]="arrowNext" class="arrow" (click)="nextSlide()" />
+  </div>
 
 </section>
