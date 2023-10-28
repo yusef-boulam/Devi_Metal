@@ -8,6 +8,191 @@ export class ProjectsService {
   projects: Project[] = [
     {
       id: 1,
+      title: 'Formation',
+      description: 'Projets réalisées durant la formation.',
+      logoUrl: '../../assets/images/project/Barriere/covers.jpg',
+      imageUrl: '../../assets/images/project/Formation/1.jpg',
+      tag: 'AFPA',
+      page: 'projectA',
+      images: [
+        {
+          src: '../../assets/images/project/Formation/1.jpg',
+          alt: 'photo formation',
+        },
+        {
+          src: '../../assets/images/project/Formation/2.jpg',
+          alt: 'photo formation',
+        },
+        {
+          src: '../../assets/images/project/Formation/3.jpg',
+          alt: 'photo formation',
+        },
+        {
+          src: '../../assets/images/project/Formation/4.jpg',
+          alt: 'photo formation',
+        },
+        {
+          src: '../../assets/images/project/Formation/5.jpg',
+          alt: 'photo formation',
+        },
+        {
+          src: '../../assets/images/project/Formation/6.jpg',
+          alt: 'photo formation',
+        },
+        {
+          src: '../../assets/images/project/Formation/7.jpg',
+          alt: 'photo formation',
+        },
+        {
+          src: '../../assets/images/project/Formation/8.jpg',
+          alt: 'photo formation',
+        },
+        {
+          src: '../../assets/images/project/Formation/9.jpg',
+          alt: 'photo formation',
+        },
+        {
+          src: '../../assets/images/project/Formation/10.jpg',
+          alt: 'photo formation',
+        },
+        {
+          src: '../../assets/images/project/Formation/11.jpg',
+          alt: 'photo formation',
+        },
+        {
+          src: '../../assets/images/project/Formation/12.jpg',
+          alt: 'photo formation',
+        },
+        {
+          src: '../../assets/images/project/Formation/13.jpg',
+          alt: 'photo formation',
+        },
+        {
+          src: '../../assets/images/project/Formation/14.jpg',
+          alt: 'photo formation',
+        },
+        {
+          src: '../../assets/images/project/Formation/15.jpg',
+          alt: 'photo formation',
+        },
+        {
+          src: '../../assets/images/project/Formation/16.jpg',
+          alt: 'photo formation',
+        },
+        {
+          src: '../../assets/images/project/Formation/17.jpg',
+          alt: 'photo formation',
+        },
+        {
+          src: '../../assets/images/project/Formation/18.jpg',
+          alt: 'photo formation',
+        },
+        {
+          src: '../../assets/images/project/Formation/19.jpg',
+          alt: 'photo formation',
+        },
+        {
+          src: '../../assets/images/project/Formation/20.jpg',
+          alt: 'photo formation',
+        },
+        {
+          src: '../../assets/images/project/Formation/21.jpg',
+          alt: 'photo formation',
+        },
+        {
+          src: '../../assets/images/project/Formation/22.jpg',
+          alt: 'photo formation',
+        },
+        {
+          src: '../../assets/images/project/Formation/23.jpg',
+          alt: 'photo formation',
+        },
+        {
+          src: '../../assets/images/project/Formation/24.jpg',
+          alt: 'photo formation',
+        },
+        {
+          src: '../../assets/images/project/Formation/25.jpg',
+          alt: 'photo formation',
+        },
+        {
+          src: '../../assets/images/project/Formation/26.jpg',
+          alt: 'photo formation',
+        },
+        {
+          src: '../../assets/images/project/Formation/27.jpg',
+          alt: 'photo formation',
+        },
+        {
+          src: '../../assets/images/project/Formation/28.jpg',
+          alt: 'photo formation',
+        },
+        {
+          src: '../../assets/images/project/Formation/29.jpg',
+          alt: 'photo formation',
+        },
+        {
+          src: '../../assets/images/project/Formation/30.jpg',
+          alt: 'photo formation',
+        },
+        {
+          src: '../../assets/images/project/Formation/31.jpg',
+          alt: 'photo formation',
+        },
+        {
+          src: '../../assets/images/project/Formation/32.jpg',
+          alt: 'photo formation',
+        },
+        {
+          src: '../../assets/images/project/Formation/33.jpg',
+          alt: 'photo formation',
+        },
+        {
+          src: '../../assets/images/project/Formation/34.jpg',
+          alt: 'photo formation',
+        },
+        {
+          src: '../../assets/images/project/Formation/35.jpg',
+          alt: 'photo formation',
+        },
+        {
+          src: '../../assets/images/project/Formation/36.jpg',
+          alt: 'photo formation',
+        },
+        {
+          src: '../../assets/images/project/Formation/37.jpg',
+          alt: 'photo formation',
+        },
+        {
+          src: '../../assets/images/project/Formation/38.jpg',
+          alt: 'photo formation',
+        },
+        {
+          src: '../../assets/images/project/Formation/39.jpg',
+          alt: 'photo formation',
+        },
+        {
+          src: '../../assets/images/project/Formation/40.jpg',
+          alt: 'photo formation',
+        },
+        {
+          src: '../../assets/images/project/Formation/41.jpg',
+          alt: 'photo formation',
+        },
+        {
+          src: '../../assets/images/project/Formation/42.jpg',
+          alt: 'photo formation',
+        },
+        {
+          src: '../../assets/images/project/Formation/43.jpg',
+          alt: 'photo formation',
+        },
+
+        // ... autres images
+      ],
+    },
+    {
+      id: 2,
       title: 'Barriere',
       description: 'Construction d’une rambarde pour un particulier.',
       logoUrl: '../../assets/images/project/Barriere/covers.jpg',
@@ -84,7 +269,7 @@ export class ProjectsService {
       ],
     },
     {
-      id: 2,
+      id: 3,
       title: 'Chapiteau',
       description:
         'Participation en tant que constructeur métal pour la compagnie arc en ciel.',
@@ -222,9 +407,9 @@ export class ProjectsService {
       ],
     },
     {
-      id: 3,
+      id: 4,
       title: 'Veranda',
-      description: 'Construction d’une véranda pour un particulier .',
+      description: 'Construction d’une véranda pour un particulier.',
       logoUrl: '../../assets/images/project/logo_ohmyfood.png',
       imageUrl: '../../assets/images/project/Veranda/covers.jpg',
 

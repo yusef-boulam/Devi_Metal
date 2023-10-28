@@ -10,8 +10,7 @@ export class HomePageComponent {
 
   picture: string = '../../assets/images/homePage/profile.png';
   title: string = 'Réalisations';
-  presentation: string =
-    'Diplômé et passionné, j’ai réalisé une application web avec la librairie ReactJS sur la partie front-end et créé une API RESTful avec NodeJS sur la partie back-end.';
+  description: string = 'Cliquer sur le projet pour voir toutes les photos';
   titleSkils: string = 'Compétences:';
   skilsFront: string = 'HTML, CSS, JavaScript, TypeScript, React, Angular';
   skilsBack: string = 'NodeJS, ExpressJS, MongoDB';

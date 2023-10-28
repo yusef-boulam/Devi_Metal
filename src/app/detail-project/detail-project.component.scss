@@ -4,10 +4,10 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 80vh;
   margin-top: 110px;
   margin-bottom: 20px;
   position: relative;
-
 }
 
 button{
@@ -35,4 +35,14 @@ background-color: rgba(93, 90, 90, 0.463);
 
 .arrow:hover{
   cursor: pointer;
+  background-color: rgba(128, 162, 235, 0.8);
+}
+
+
+
+@media screen and (max-width: 400px) {
+
+  section {
+    height: 54vh;
+  }
 }
