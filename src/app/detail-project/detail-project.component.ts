@@ -19,7 +19,7 @@ export class DetailProjectComponent {
     private route: ActivatedRoute
   ) {}
 
-  // recupere l'id du projet dans l'url
+  //  get the project id in the url
   ngOnInit(): void {
     const projectId = +this.route.snapshot.params['id'];
     this.project = this.ProjectsService.getProjectById(projectId);
