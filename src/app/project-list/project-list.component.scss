@@ -11,9 +11,54 @@
 }
 
 
+@keyframes arrivee {
+  0% {
+    transform: translateX(200px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.cards{
+// animation qui fait arriver les cartes de la droite
+  opacity: 0;
+  animation: arrivee 1s ease-in-out forwards;
+
+  &:nth-child(1) {
+    animation-delay: 0.2s;
+  }
+
+  &:nth-child(2) {
+    animation-delay: 0.4s;
+  }
+
+  &:nth-child(3) {
+    animation-delay: 0.6s;
+  }
+
+  &:nth-child(4) {
+    animation-delay: 0.8s;
+  }
+
+}
+
+
+@media screen and (max-width: 600px) {
+  .container_projects{
+    margin-bottom: 30px;
+  }
+}
+
+
+
 @media screen and (max-width: 600px) {
   .container_projects{
 
     margin-bottom: 30px;
   }
 }
+
+

@@ -9,7 +9,7 @@ export class ProjectsService {
     {
       id: 1,
       title: 'Formation',
-      description: 'Projets réalisées durant la formation.',
+      description: 'Industrie',
       logoUrl: '../../assets/images/project/Barriere/covers.jpg',
       imageUrl: '../../assets/images/project/Formation/1.jpg',
       tag: 'AFPA',
@@ -194,7 +194,7 @@ export class ProjectsService {
     {
       id: 2,
       title: 'Barriere',
-      description: 'Construction d’une rambarde pour un particulier.',
+      description: 'Garde Corps',
       logoUrl: '../../assets/images/project/Barriere/covers.jpg',
       imageUrl: '../../assets/images/project/Barriere/covers.jpg',
       tag: 'Espenel',
@@ -271,8 +271,7 @@ export class ProjectsService {
     {
       id: 3,
       title: 'Chapiteau',
-      description:
-        'Participation en tant que constructeur métal pour la compagnie arc en ciel.',
+      description: 'Evenementiel',
       logoUrl: '../../assets/images/project/logo_laPanthere.svg',
       imageUrl: '../../assets/images/project/Chapiteau/covers.jpg',
 
@@ -409,7 +408,7 @@ export class ProjectsService {
     {
       id: 4,
       title: 'Veranda',
-      description: 'Construction d’une véranda pour un particulier.',
+      description: 'Veranda',
       logoUrl: '../../assets/images/project/logo_ohmyfood.png',
       imageUrl: '../../assets/images/project/Veranda/covers.jpg',
 

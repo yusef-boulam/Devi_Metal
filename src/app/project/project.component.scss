@@ -4,33 +4,50 @@ a {
 }
 
 .project-card {
+  position: relative;
   box-sizing: border-box;
   width: 265px;
   height: 300px;
   margin: 25px 10px 10px 10px;
-  padding: 10px 30px;
+  border-radius: 20px;
   box-shadow: rgb(188, 187, 187) 4px 4px 20px;
   cursor: pointer;
+
 }
 
 .project-card:hover {
 
   box-shadow: rgb(188, 187, 187) 20px 20px 20px;
-  transition: 0.5s;
+  transform: rotate(2deg);
+  transition: 0.5s ease-in-out;
 
 
 }
 
-  .container-logo-tag{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 40px;
+  // .container-logo-tag{
+  //   display: flex;
+  //   justify-content: space-between;
+  //   align-items: center;
+  //   height: 40px;
+  // }
+  .picture {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+
   }
 
-  .picture {
+  .filterPicture{
+    position: absolute;
+    bottom: 0;
+    left: 0;
     width: 100%;
-    height: 158px;
+    height: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.4), transparent); // Adjust the rgba values to control the color and intensity of the darkening effect
+    z-index: 2;
+    border-radius: 20px;
   }
 
   .logo{
@@ -38,8 +55,12 @@ a {
   }
 
   p {
-    font-weight: 300;
-    font-size: 16px;
+    padding: 10px 20px 10px 20px;
+    color: #ffffff;
+    position: absolute;
+    bottom: 0;
+    font-weight: 400;
+    font-size: 20px;
     line-height: 1.2;
     margin-bottom: 10px;
     margin-top: 10px;
@@ -61,15 +82,15 @@ a {
   }
 
 
-.tag{
-  height: 10px;
+// .tag{
+//   height: 10px;
+//   position: absolute;
+//   box-shadow: rgb(188, 187, 187) 4px 4px 20px;
+//   padding: 5px;
+//   display: inline-block;
+//   border-radius: 10%;
+//   font-size: 12px;
+//   line-height: 10px;
+//   color:  #333
 
-  box-shadow: rgb(188, 187, 187) 4px 4px 20px;
-  padding: 5px;
-  display: inline-block;
-  border-radius: 10%;
-  font-size: 12px;
-  line-height: 10px;
-  color:  #333
-
-}
+// }

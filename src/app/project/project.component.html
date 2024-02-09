@@ -1,9 +1,12 @@
 <a (click)="onViewProject()">
   <div class="project-card">
     <div class="container-logo-tag">
-      <div class="tag">{{project.tag}}</div>
+      <!-- <div class="tag">{{project.tag}}</div> -->
     </div>
     <img class="picture" [src]="project.imageUrl" alt="image">
-    <p>{{project.description}}</p>
+    <div class="filterPicture">
+      <p>{{project.description}}</p>
+    </div>
+
   </div>
 </a>

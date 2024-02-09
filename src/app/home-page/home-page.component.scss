@@ -15,31 +15,52 @@ img{
   align-items: center;
   justify-content: center;
   margin: auto;
-  width: 95%;
+  width: 100%;
   height: 300px;
   margin-top: 84px;
  // COVER IMAGE
   object-fit: cover;
-  border-radius: 10px;
+
   box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
 
 
+}
+
+// keyframes pour l'arrivée du titre
+@keyframes arrivee {
+  0% {
+    transform: translateX(-200px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
 }
 
 h1{
   font-size: 30px;
   font-weight: 600;
   margin-bottom: 5px;
+  // animiation qui fait arriver le titre de la gauche
+  opacity: 0;
+  animation: arrivee 1s ease-in-out forwards;
 
 }
 
 h2{
+  opacity: 0;
+  animation: arrivee 1s ease-in-out forwards;
   font-size: 24px;
   font-weight: 600;
   margin-bottom: 5px;
 }
 
 p {
+  opacity: 0;
+  animation: arrivee 1s ease-in-out forwards;
+  // ajout du delai
+
   font-size: 18px;
   font-weight: 300;
   margin: 2px;
