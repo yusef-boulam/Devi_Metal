@@ -9,6 +9,8 @@ import { HeaderComponent } from './header/header.component';
 import { HomePageComponent } from './home-page/home-page.component';
 import { FooterComponent } from './footer/footer.component';
 import { DetailProjectComponent } from './detail-project/detail-project.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,12 @@ import { DetailProjectComponent } from './detail-project/detail-project.componen
     FooterComponent,
     DetailProjectComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    MatSlideToggleModule,
+  ],
   providers: [],
   bootstrap: [AppComponent],
 })

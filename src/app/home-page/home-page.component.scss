@@ -1,6 +1,6 @@
 section{
-  width:75%;
-  margin: 117px auto 30px auto;
+  width:95%;
+  margin: 27px auto 30px auto;
   min-width: 220px;
   line-height: 1.5;
  }
@@ -10,11 +10,26 @@ section{
   margin-bottom: 20px;
 }
 
+img{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  width: 95%;
+  height: 300px;
+  margin-top: 84px;
+ // COVER IMAGE
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+
+
+}
+
 h1{
   font-size: 30px;
   font-weight: 600;
-  margin-bottom: 30px;
-  margin-top: 150px;
+  margin-bottom: 5px;
 
 }
 

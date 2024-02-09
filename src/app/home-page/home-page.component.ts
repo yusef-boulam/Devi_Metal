@@ -7,10 +7,9 @@ import { Component } from '@angular/core';
 })
 export class HomePageComponent {
   constructor() {}
-
-  picture: string = '../../assets/images/homePage/profile.png';
-  title: string = 'Réalisations';
-  description: string = 'Cliquer sur le projet pour voir toutes les photos';
+  picture: string = '../../assets/images/HomePage/soud3.jpg';
+  title: string = 'Pour donner vie à vos projets !';
+  description: string = 'Cliquez sur les projets pour voir toutes les photos';
   titleSkils: string = 'Compétences:';
   skilsFront: string = 'HTML, CSS, JavaScript, TypeScript, React, Angular';
   skilsBack: string = 'NodeJS, ExpressJS, MongoDB';
