@@ -11,6 +11,7 @@ import { FooterComponent } from './footer/footer.component';
 import { DetailProjectComponent } from './detail-project/detail-project.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
+import { ProjectOverviewComponent } from './project-overview/project-overview.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { MatSlideToggleModule } from '@angular/material/slide-toggle';
     HomePageComponent,
     FooterComponent,
     DetailProjectComponent,
+    ProjectOverviewComponent,
   ],
   imports: [
     BrowserModule,

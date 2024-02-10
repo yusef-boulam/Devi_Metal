@@ -1,6 +1,10 @@
 <header>
-  <a class="name" routerLink="">DEVI METAL</a>
+  <a class="logo" routerLink="">
+    <img [src]="logo" alt="Logo" />
+    <div class="name">DEVI METAL</div>
+  </a>
   <nav>
     <a routerLink="" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Home</a>
+    <a routerLink="/contact" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Contact</a>
   </nav>
 </header>

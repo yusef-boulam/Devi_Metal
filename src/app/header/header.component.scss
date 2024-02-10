@@ -15,6 +15,18 @@ background-color: rgb(244 , 240 , 235);
   margin: auto;
 }
 
+.logo{
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+img{
+// modifier la couleur en noir d un image png
+  filter: invert(1);
+  height: 40px;
+}
+
 nav{
   margin-right: 20px;
 }
