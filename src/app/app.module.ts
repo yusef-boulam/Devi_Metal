@@ -8,10 +8,11 @@ import { ProjectListComponent } from './project-list/project-list.component';
 import { HeaderComponent } from './header/header.component';
 import { HomePageComponent } from './home-page/home-page.component';
 import { FooterComponent } from './footer/footer.component';
-import { DetailProjectComponent } from './detail-project/detail-project.component';
+
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import { ProjectOverviewComponent } from './project-overview/project-overview.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -21,8 +22,8 @@ import { ProjectOverviewComponent } from './project-overview/project-overview.co
     HeaderComponent,
     HomePageComponent,
     FooterComponent,
-    DetailProjectComponent,
     ProjectOverviewComponent,
+    ContactComponent,
   ],
   imports: [
     BrowserModule,
