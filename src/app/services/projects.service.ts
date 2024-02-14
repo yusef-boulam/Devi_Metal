@@ -8,6 +8,109 @@ export class ProjectsService {
   projects: Project[] = [
     {
       id: 1,
+      title: 'Barriere',
+      description: 'Garde Corps',
+      logoUrl: '../../assets/images/project/Barriere/covers.jpg',
+      imageUrl: '../../assets/images/project/Barriere/covers.jpg',
+      tag: 'Espenel',
+      page: 'projectA',
+      images: [
+        {
+          src: '../../assets/images/project/Barriere/covers.jpg',
+          alt: 'photo barriere',
+        },
+        {
+          src: '../../assets/images/project/Barriere/1.jpg',
+          alt: 'photo barriere',
+        },
+        {
+          src: '../../assets/images/project/Barriere/2.jpg',
+          alt: 'photo barriere',
+        },
+        {
+          src: '../../assets/images/project/Barriere/3.jpg',
+          alt: 'photo barriere',
+        },
+        {
+          src: '../../assets/images/project/Barriere/4.jpg',
+          alt: 'photo barriere',
+        },
+        {
+          src: '../../assets/images/project/Barriere/5.jpg',
+          alt: 'photo barriere',
+        },
+        {
+          src: '../../assets/images/project/Barriere/6.jpg',
+          alt: 'photo barriere',
+        },
+        {
+          src: '../../assets/images/project/Barriere/7.jpg',
+          alt: 'photo barriere',
+        },
+        {
+          src: '../../assets/images/project/Barriere/8.jpg',
+          alt: 'photo barriere',
+        },
+        {
+          src: '../../assets/images/project/Barriere/9.jpg',
+          alt: 'photo barriere',
+        },
+        {
+          src: '../../assets/images/project/Barriere/10.jpg',
+          alt: 'photo barriere',
+        },
+        {
+          src: '../../assets/images/project/Barriere/11.jpg',
+          alt: 'photo barriere',
+        },
+        {
+          src: '../../assets/images/project/Barriere/12.jpg',
+          alt: 'photo barriere',
+        },
+        {
+          src: '../../assets/images/project/Barriere/13.jpg',
+          alt: 'photo barriere',
+        },
+        {
+          src: '../../assets/images/project/Barriere/14.jpg',
+          alt: 'photo barriere',
+        },
+        {
+          src: '../../assets/images/project/Barriere/15.jpg',
+          alt: 'photo barriere',
+        },
+
+        // ... autres images
+      ],
+    },
+    {
+      id: 2,
+      title: 'Veranda',
+      description: 'Veranda',
+      logoUrl: '../../assets/images/project/logo_ohmyfood.png',
+      imageUrl: '../../assets/images/project/Veranda/covers.jpg',
+
+      tag: 'Plein de Beaux',
+      page: 'projectB',
+      images: [
+        {
+          src: '../../assets/images/project/Veranda/covers.jpg',
+          alt: 'photo veranda',
+        },
+        {
+          src: '../../assets/images/project/Veranda/Photo 1.jpg',
+          alt: 'photo veranda',
+        },
+        {
+          src: '../../assets/images/project/Veranda/photo 2.jpg',
+          alt: 'photo veranda',
+        },
+
+        // ... autres images
+      ],
+    },
+    {
+      id: 3,
       title: 'Formation',
       description: 'Industrie',
       logoUrl: '../../assets/images/project/Barriere/covers.jpg',
@@ -192,84 +295,7 @@ export class ProjectsService {
       ],
     },
     {
-      id: 2,
-      title: 'Barriere',
-      description: 'Garde Corps',
-      logoUrl: '../../assets/images/project/Barriere/covers.jpg',
-      imageUrl: '../../assets/images/project/Barriere/covers.jpg',
-      tag: 'Espenel',
-      page: 'projectA',
-      images: [
-        {
-          src: '../../assets/images/project/Barriere/covers.jpg',
-          alt: 'photo barriere',
-        },
-        {
-          src: '../../assets/images/project/Barriere/1.jpg',
-          alt: 'photo barriere',
-        },
-        {
-          src: '../../assets/images/project/Barriere/2.jpg',
-          alt: 'photo barriere',
-        },
-        {
-          src: '../../assets/images/project/Barriere/3.jpg',
-          alt: 'photo barriere',
-        },
-        {
-          src: '../../assets/images/project/Barriere/4.jpg',
-          alt: 'photo barriere',
-        },
-        {
-          src: '../../assets/images/project/Barriere/5.jpg',
-          alt: 'photo barriere',
-        },
-        {
-          src: '../../assets/images/project/Barriere/6.jpg',
-          alt: 'photo barriere',
-        },
-        {
-          src: '../../assets/images/project/Barriere/7.jpg',
-          alt: 'photo barriere',
-        },
-        {
-          src: '../../assets/images/project/Barriere/8.jpg',
-          alt: 'photo barriere',
-        },
-        {
-          src: '../../assets/images/project/Barriere/9.jpg',
-          alt: 'photo barriere',
-        },
-        {
-          src: '../../assets/images/project/Barriere/10.jpg',
-          alt: 'photo barriere',
-        },
-        {
-          src: '../../assets/images/project/Barriere/11.jpg',
-          alt: 'photo barriere',
-        },
-        {
-          src: '../../assets/images/project/Barriere/12.jpg',
-          alt: 'photo barriere',
-        },
-        {
-          src: '../../assets/images/project/Barriere/13.jpg',
-          alt: 'photo barriere',
-        },
-        {
-          src: '../../assets/images/project/Barriere/14.jpg',
-          alt: 'photo barriere',
-        },
-        {
-          src: '../../assets/images/project/Barriere/15.jpg',
-          alt: 'photo barriere',
-        },
-
-        // ... autres images
-      ],
-    },
-    {
-      id: 3,
+      id: 4,
       title: 'Chapiteau',
       description: 'Evenementiel',
       logoUrl: '../../assets/images/project/logo_laPanthere.svg',
@@ -403,32 +429,6 @@ export class ProjectsService {
           src: '../../assets/images/project/Chapiteau/38.jpg',
           alt: 'photo chapiteau',
         },
-      ],
-    },
-    {
-      id: 4,
-      title: 'Veranda',
-      description: 'Veranda',
-      logoUrl: '../../assets/images/project/logo_ohmyfood.png',
-      imageUrl: '../../assets/images/project/Veranda/covers.jpg',
-
-      tag: 'Plein de Beaux',
-      page: 'projectB',
-      images: [
-        {
-          src: '../../assets/images/project/Veranda/covers.jpg',
-          alt: 'photo veranda',
-        },
-        {
-          src: '../../assets/images/project/Veranda/Photo 1.jpg',
-          alt: 'photo veranda',
-        },
-        {
-          src: '../../assets/images/project/Veranda/photo 2.jpg',
-          alt: 'photo veranda',
-        },
-
-        // ... autres images
       ],
     },
   ];

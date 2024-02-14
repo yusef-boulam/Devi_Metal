@@ -1,7 +1,10 @@
 <div class="container-image">
   <div *ngFor="let image of images">
+    <img [src]="image.src" [alt]="image.alt" (click)="selectImage(image)">
+  </div>
 
-    <img [src]="image.src" [alt]="image.alt">
+  <div class="modal" *ngIf="selectedImage" (click)="closeImage()">
+    <img [src]="selectedImage.src" [alt]="selectedImage.alt">
   </div>
 
 </div>

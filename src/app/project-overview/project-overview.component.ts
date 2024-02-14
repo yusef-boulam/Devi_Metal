@@ -11,6 +11,7 @@ import { Project } from '../models/project.model';
 export class ProjectOverviewComponent {
   project!: Project;
   images!: { src: string; alt: string }[];
+  selectedImage: { src: string; alt: string } | null = null;
 
   constructor(
     private ProjectsService: ProjectsService,
@@ -22,5 +23,13 @@ export class ProjectOverviewComponent {
     this.project = this.ProjectsService.getProjectById(projectId);
     this.images = this.project.images;
     // je veux afficher les images
+  }
+
+  selectImage(image: { src: string; alt: string }) {
+    this.selectedImage = image;
+  }
+
+  closeImage() {
+    this.selectedImage = null;
   }
 }
